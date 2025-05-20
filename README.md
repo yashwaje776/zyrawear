@@ -22,51 +22,46 @@ Features
 
 ✅ MongoDB used for data storage
 
-Technology Stack
-Frontend	Backend	Database	Payment Gateway
-React, Tailwind CSS	Node.js, Express	MongoDB	Razorpay / Stripe
+## Technology Stack
 
-Installing
-Quick Setup
-Clone the repository:
+| Frontend               | Backend           | Database  | Payment Gateway       |
+|------------------------|-------------------|-----------|----------------------|
+| React, Tailwind | Node.js, Express | MongoDB   | Razorpay (Test Mode)  |
 
-bash
-Copy
-Edit
-git clone https://github.com/yashwaje776/zyrawear.git
-Navigate into the project folder:
+---## Installing
 
-bash
-Copy
-Edit
-cd zyrawear
-Install frontend dependencies:
-
-bash
-Copy
-Edit
-cd frontend
+# Installing - easy ::
+1.	Download the repository
+```
+git clone https://github.com/yashwaje776/zyrawear
+```
+2.	Open the Terminal (Linux & MacOS) or PowerShell (Windows) and change directory to the project folder.
+3. Go to frontend folder and type " npm install " in the terminal and press Enter.All the dependencies of frontend would be installed.
+```bash 
+cd frontend 
 npm install
-Install backend dependencies:
-
-bash
-Copy
-Edit
-cd ../backend
-npm install
-Return to the root folder and start the development servers:
-
-bash
-Copy
-Edit
-cd ..
 npm run dev
-Open your browser and visit:
+```
+4. Go to backed  folder and type " npm install " in the terminal and press Enter.All the dependencies of backed  would be installed.
+```bash 
+cd backend  
+npm install
+npm run start
+```
+5. Go to admin folder and type " npm install " in the terminal and press Enter.All the dependencies of admin would be installed.
+```bash 
+cd admin 
+npm install
+npm run dev
 
-arduino
-Copy
-Edit
-http://localhost:3000/
+```
+
+5.	Go back to the Terminal (PowerShell) and be sure that you are pointing inside the project folder. To open the application, type ‘npm run dev ’ and press Enter.
+6.	The application should be live on the local port 3000.  
+7.	Type http://localhost:3000/ into a browser.
+
+8.	Now you should be inside the application
+
 Usage
 Register as a customer or admin
 
